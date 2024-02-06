@@ -165,7 +165,7 @@ body {
     left: 1.4rem;
     width: 2.8rem;
     height: 2.8rem;
-    background: #fff1d7;
+    background: #f2ebe1;
     padding: 0.8rem;
     border-radius: 45px; }
     @media only screen and (max-width: 43.75em) {
@@ -186,7 +186,7 @@ body {
         border-radius: 50px;
         width: fit-content; } }
     .sidebar-item:hover {
-      background-color: #fff1d7; }
+      background-color: #f2ebe1; }
       .sidebar-item:hover > ion-icon {
         opacity: 1; }
     .sidebar-item ion-icon {
@@ -194,7 +194,7 @@ body {
       height: 2.4rem;
       opacity: 0.7; }
   .sidebar-item-active {
-    background-color: #fff1d7; }
+    background-color: #f2ebe1; }
     @media only screen and (max-width: 43.75em) {
       .sidebar-item-active {
         background-color: transparent; } }
@@ -218,7 +218,7 @@ body {
       color: #fff; }
 
 .site {
-  background-color: #fff1d7;
+  background-color: #f2ebe1;
   border-bottom: 1px solid rgba(17, 17, 17, 0.2);
   display: flex;
   align-items: center;
@@ -250,7 +250,7 @@ body {
     font-weight: 600; }
 
 .dropdown {
-  background-color: #fff1d7;
+  background-color: #f2ebe1;
   padding: 2.4rem;
   position: relative; }
   .dropdown-close {
@@ -279,7 +279,7 @@ body {
       height: 100vh;
       top: 0rem;
       right: 0%;
-      background-color: #fff1d7;
+      background-color: #f2ebe1;
       opacity: 0;
       visibility: hidden;
       pointer-events: none;
@@ -425,7 +425,7 @@ body {
     .project-cards {
       grid-column-gap: 1.8rem; } }
   .project-cards-card {
-    background-color: #ff9a60;
+    background-color: #fdbda2;
     height: 35rem;
     border-radius: 5%;
     padding: 3.2rem 2.8rem;
@@ -446,13 +446,13 @@ body {
           height: 3.8rem;
           border-radius: 25px;
           position: relative;
-          border: 2px solid #ff9a60;
+          border: 2px solid #fdbda2;
           cursor: pointer;
           object-fit: cover; }
           .project-cards-card .gallery-img-item-2 {
-            border: 2px solid #ffff8b; }
+            border: 2px solid #fce4bc; }
             .project-cards-card .gallery-img-item-2:first-child {
-              background-color: #ffff8b;
+              background-color: #fce4bc;
               color: #000;
               border: .2rem solid #000; }
         .project-cards-card .gallery-img span {
@@ -526,7 +526,7 @@ body {
         .project-cards-card-progress-line-2::after {
           width: 75%; }
     .project-cards-card-2 {
-      background-color: #ffff8b; }
+      background-color: #fce4bc; }
     .project-cards-card:hover {
       transform: scale(1.02);
       box-shadow: 0 0rem 2rem rgba(0, 0, 0, 0.05); }
@@ -551,9 +551,19 @@ body {
       color: rgba(0, 0, 0, 0.9);
       margin-bottom: .5rem; }
     .info-r-t h1 {
-      width: 60%;
-      font-size: 1.6rem;
+      width: 80%;
+      font-size: 1.8rem;
       line-height: 1.2; }
+      @media only screen and (max-width: 57.5em) {
+        .info-r-t h1 {
+          width: 87%; } }
+      @media only screen and (max-width: 43.75em) {
+        .info-r-t h1 {
+          width: 95%; } }
+      @media only screen and (max-width: 32em) {
+        .info-r-t h1 {
+          width: 65%;
+          font-size: 1.5rem; } }
     .info-r-btn button {
       padding: 0.8rem 1.6rem;
       border: 2px dashed #fce6bd;
@@ -561,6 +571,7 @@ body {
       font-weight: 600;
       color: rgba(0, 0, 0, 0.9);
       font-size: 1.2rem;
+      font-family: inherit;
       border-radius: 2.5rem;
       cursor: pointer; }
   .info-dot {
@@ -754,7 +765,7 @@ body {
       height: 3.2rem;
       color: #f0894d;
       border: 2px dashed;
-      background-color: #fff1d7; }
+      background-color: #f2ebe1; }
 
 .member-time {
   padding: 2.8rem 2rem;

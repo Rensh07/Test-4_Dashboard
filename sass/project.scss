@@ -280,9 +280,23 @@
         }
 
         &-t h1{
-            width: 60%;
-            font-size: 1.6rem;
+            width: 80%;
+            font-size: 1.8rem;
             line-height: 1.2;
+
+            @media only screen and (max-width: $screen-tab-port-min) {
+                width: 87%;
+            }
+
+            
+            @media only screen and (max-width: $screen-tab-port-min-2) {
+                width: 95%;
+            }
+
+            @media only screen and (max-width: $screen-phone) {
+                width: 65%;
+                font-size: 1.5rem;
+            }
         }
 
         &-btn button{
@@ -292,6 +306,7 @@
             font-weight: 600;
             color: rgba(0,0,0,0.9);
             font-size: 1.2rem;
+            font-family: inherit;
             border-radius: 2.5rem;
             cursor: pointer;
         }
