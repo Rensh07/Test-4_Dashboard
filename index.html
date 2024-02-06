@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Test-4</title>
+
+</head>
+<body>
+    <main class="main-section">
+        <div class="main-container">
+            <div class="sidebar-logo flex-center">
+              <div class="sidebar-logo-main">
+                <p>z</p>
+              </div>
+            </div>
+            <div class="site">
+              <div class="site-main">
+                <h1 class="site-title">
+                  Ziferblat
+                </h1>
+                <p class="site-txt">
+                  Teamword & time management
+                </p>
+              </div>
+              <ion-icon class="site-close" name="menu-outline"></ion-icon>
+            </div>
+            <div class="sidebar-link flex-center">
+              <ul class="sidebar-list flex-center">
+      
+                <ion-icon class="sidebar-close" name="close-outline"></ion-icon>
+      
+                <li class="sidebar-item sidebar-item-active">
+                  <ion-icon name="home-outline"></ion-icon>
+                </li>
+                <li class="sidebar-item">
+                  <ion-icon name="people-outline"></ion-icon>
+                </li>
+                <li class="sidebar-item">
+                  <ion-icon name="calendar-outline"></ion-icon>
+                </li>
+                <li class="sidebar-item">
+                  <ion-icon name="checkbox-outline"></ion-icon>
+                </li>
+                <li class="sidebar-item">
+                  <ion-icon name="time-outline"></ion-icon>
+                </li>
+                <li class="sidebar-item">
+                  <ion-icon name="chatbubble-outline"></ion-icon>
+                </li>
+              </ul>
+              <div class="sidebar-question flex-center">
+                <ion-icon name="help-outline"></ion-icon>
+              </div>
+            </div>
+            
+            <div class="dropdown">
+      
+              <button class="dropdown-close" class="header-product-items-none-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18"></path>
+                </svg>
+                Back
+            </button>
+      
+              <ul class="dropdown-main">
+                <li class="dropdown-item">
+                  <div class="dropdown-item-main">
+                    <span>Team</span>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                  </div>
+      
+                  <ul class="dropdown-submenu hidden">
+                    <li class="dropdown-subitem">
+                      none
+                    </li>
+                  </ul>
+      
+                </li>
+                <li class="dropdown-item dropdown-item-active">
+                  <div class="dropdown-item-main">
+                    <span>Projects</span>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                  </div>
+      
+                  <ul class="dropdown-submenu hidden">
+                    <li class="dropdown-subitem">
+                      All projects (4)
+                    </li>
+                    <li class="dropdown-subitem">
+                      Design system
+                    </li>
+                    <li class="dropdown-subitem">
+                      Make unique design for customer
+                    </li>
+                    <li class="dropdown-subitem">
+                      User flow
+                    </li>
+                    <li class="dropdown-subitem">
+                      UX research
+                    </li>
+                    <li class="dropdown-subitem dropdown-subitem-active">
+                      Add new project
+                    </li>
+                  </ul>
+      
+                </li>
+                <li class="dropdown-item ">
+                  <div class="dropdown-item-main">
+                    <span>Tasks</span>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                  </div>
+      
+                  <ul class="dropdown-submenu hidden">
+                    <li class="dropdown-subitem">
+                      All tasks (3)
+                    </li>
+                    <li class="dropdown-subitem">
+                      New (1)
+                    </li>
+                    <li class="dropdown-subitem">
+                      In progress (1)
+                    </li>
+                    <li class="dropdown-subitem">
+                      Done (1)
+                    </li>
+                    <li class="dropdown-subitem dropdown-subitem-active">
+                      Add new project
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-item">
+                  <div class="dropdown-item-main">
+                    <span>Reminder</span>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                  </div>
+      
+                  <ul class="dropdown-submenu hidden">
+                    <li class="dropdown-subitem">
+                      none
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-item">
+                  <div class="dropdown-item-main">
+                    <span>Messenger</span>
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                  </div>
+      
+                  <ul class="dropdown-submenu hidden">
+                    <li class="dropdown-subitem">
+                      none
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project">
+
+            <div class="project-main-search">
+                <div class="heading-1">Today, 4 October</div>
+                <div class="project-search">
+                    <input type="text" name="search" placeholder="Searching for..." id="search">
+                    <ion-icon name="search-outline" role="img" class="md hydrated"></ion-icon>
+                </div>
+            </div>
+            
+            <div class="project-add-profile">
+                <div class="menu-icon">
+                    <ion-icon name="ellipsis-horizontal"></ion-icon>
+                </div>
+
+                <div class="profile-user">
+                    <button class="profile-user-btn">Add Project</button>
+                    <div class="user-info">
+                        <span class="user-info-noti">
+                            <ion-icon name="notifications-outline"></ion-icon>
+                        </span>                              
+                        <div class="user-info-u">
+                            <img class="user-info-u-img" src="img/w-3.jpeg" alt="user photo">
+
+                            <div class="user-info-u-name">
+                              <p class="user-info-u-name-title">User</p>
+                              <p class="user-info-u-name-n">Maria</p>
+                            </div>
+                        </div> 
+
+                        <span class="user-info-drop flex-center">
+                            <svg class="user-info-drop-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 0 1-1.06 0l-7.5-7.5a.75.75 0 0 1 1.06-1.06L12 14.69l6.97-6.97a.75.75 0 1 1 1.06 1.06l-7.5 7.5Z" clip-rule="evenodd" />
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="part-3">
+              <div class="recent-project">
+                <h2 class="recent-project-head">Recent projects</h2>
+                <a href="#" class="recent-project-btn">View all</a>
+              </div>
+
+
+              <div class="project-cards">
+                <div class="project-cards-card project-cards-card-1">
+                  <div class="gallery">
+                    <div class="gallery-img">
+                      <span class="gallery-img-item flex-center">+3</span>
+                      <img class="gallery-img-item" src="img/w-1.jpeg" alt="peoplr photo">
+                      <img class="gallery-img-item" src="img/w-2.jpeg" alt="peoplr photo">
+                    </div>
+                    <div class="dots"></div>
+                  </div>
+
+                  <div class="title">
+                      Design system
+                  </div>
+                  <div class="time">
+                    Deadline: 18 October
+                  </div>
+
+                  <div class="project-cards-card-progress">
+                    <div class="project-cards-card-progress-text">
+                      84 hours / 40%
+                    </div>
+                    <div class="project-cards-card-progress-line">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-cards-card project-cards-card-2">
+                  <div class="gallery">
+                    <div class="gallery-img">
+                      <span class="gallery-img-item gallery-img-item-2 flex-center">+2</span>
+                      <img class="gallery-img-item gallery-img-item-2" src="img/w-1.jpeg" alt="peoplr photo">
+                      <img class="gallery-img-item gallery-img-item-2" src="img/w-2.jpeg" alt="peoplr photo">
+                    </div>
+                    <div class="dots"></div>
+                  </div>
+
+                  <div class="title">
+                      Make unique page for customer
+                  </div>
+                  <div class="time">
+                    Deadline: 30 October
+                  </div>
+
+                  <div class="project-cards-card-progress">
+                    <div class="project-cards-card-progress-text">
+                      108 hours / 75%
+                    </div>
+                    <div class="project-cards-card-progress-line project-cards-card-progress-line-2">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="reminder-title">
+                Remindes
+              </div>
+
+              <div class="info">
+                <div class="info-r">
+                  <div class="info-r-t">
+                    <p>Tomorrow, 16:00-18:00</p>
+                    <h1>Discussion of the interm results of the project</h1>
+                  </div>
+                  <div class="info-r-btn">
+                    <button>Set reminder</button>
+                  </div>
+                </div>
+                <div class="info-dot">
+                  <span></span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="part-4">
+              <div class="member-title">Team members</div>
+
+              <div class="member-gallery">
+                <img src="img/m-1.jpeg" alt="" class="member-gallery-img">
+                <img src="img/w-1.jpeg" alt="" class="member-gallery-img">
+                <span class="member-gallery-img flex-center">JR</span>
+                <img src="img/m-3.jpg" alt="" class="member-gallery-img">
+                <img src="img/m-2.jpeg" alt="" class="member-gallery-img">
+                <span class="member-gallery-img flex-center">
+                  <ion-icon name="add-outline"></ion-icon>
+                </span>
+              </div>
+
+              <div class="member-time">
+                <div class="member-time-info">
+                  <p>Profile time</p>
+                  <h2>18 Hours</h2>
+                </div>
+                <div class="member-time-info">
+                  <p>Task in progress</p>
+                  <h2>2</h2>
+                </div>
+                <div class="member-time-info">
+                  <p>Finished tasks</p>
+                  <h2>16</h2>
+                </div>
+              </div>
+
+              <div class="member-task-head">
+                <div class="member-task-head-h1">
+                  Daily tasks (3)
+                </div>
+                <a class="member-task-head-a" href="#">Edit</a>
+              </div>
+
+              <div class="member-task">
+                <div class="member-task-item">
+                  <div class="member-task-check">
+                    &nbsp;
+                  </div>
+                  <h3 class="member-task-title">Add new </h3>
+                  <ion-icon name="add-outline"></ion-icon>
+                </div>
+
+                <div class="member-task-item">
+                  <div class="member-task-check">
+                    <svg height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 31.955 31.955" xml:space="preserve">
+                      <g>
+                        <path style="fill:#f0894d;" d="M27.25,4.655C20.996-1.571,10.88-1.546,4.656,4.706C-1.571,10.96-1.548,21.076,4.705,27.3c6.256,6.226,16.374,6.203,22.597-0.051C33.526,20.995,33.505,10.878,27.25,4.655z" />
+                        <path style="fill:#f0894d;" d="M13.288,23.896l-1.768,5.207c2.567,0.829,5.331,0.886,7.926,0.17l-0.665-5.416C17.01,24.487,15.067,24.5,13.288,23.896z M8.12,13.122l-5.645-0.859c-0.741,2.666-0.666,5.514,0.225,8.143l5.491-1.375C7.452,17.138,7.426,15.029,8.12,13.122z M28.763,11.333l-4.965,1.675c0.798,2.106,0.716,4.468-0.247,6.522l5.351,0.672C29.827,17.319,29.78,14.193,28.763,11.333z M11.394,2.883l1.018,5.528c2.027-0.954,4.356-1.05,6.442-0.288l1.583-5.137C17.523,1.94,14.328,1.906,11.394,2.883z" />
+                        <circle style="fill:#f0894d;" cx="15.979" cy="15.977" r="6.117" />
+                      </g>
+                    </svg>
+                    <label class="container-check">
+                      <p>New</p>
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+      
+                  <h3 class="member-task-title">Change color pallete to more bright</h3>
+                </div>
+
+                <div class="member-task-item">
+                  <div class="member-task-check">
+                    <svg height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 31.955 31.955" xml:space="preserve">
+                      <g>
+                        <path style="fill:#35c2ff;" d="M27.25,4.655C20.996-1.571,10.88-1.546,4.656,4.706C-1.571,10.96-1.548,21.076,4.705,27.3c6.256,6.226,16.374,6.203,22.597-0.051C33.526,20.995,33.505,10.878,27.25,4.655z" />
+                        <path style="fill:#35c2ff;" d="M13.288,23.896l-1.768,5.207c2.567,0.829,5.331,0.886,7.926,0.17l-0.665-5.416C17.01,24.487,15.067,24.5,13.288,23.896z M8.12,13.122l-5.645-0.859c-0.741,2.666-0.666,5.514,0.225,8.143l5.491-1.375C7.452,17.138,7.426,15.029,8.12,13.122z M28.763,11.333l-4.965,1.675c0.798,2.106,0.716,4.468-0.247,6.522l5.351,0.672C29.827,17.319,29.78,14.193,28.763,11.333z M11.394,2.883l1.018,5.528c2.027-0.954,4.356-1.05,6.442-0.288l1.583-5.137C17.523,1.94,14.328,1.906,11.394,2.883z" />
+                        <circle style="fill:#35c2ff;" cx="15.979" cy="15.977" r="6.117" />
+                      </g>
+                    </svg>
+                    <label class="container-check">
+                      <p>In progress</p>
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+      
+                  <h3 class="member-task-title">Make prototype for mobile version</h3>
+                </div>
+
+                <div class="member-task-item">
+                  <div class="member-task-check">
+                    <svg height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 31.955 31.955" xml:space="preserve">
+                      <g>
+                        <path style="fill:#fff;" d="M27.25,4.655C20.996-1.571,10.88-1.546,4.656,4.706C-1.571,10.96-1.548,21.076,4.705,27.3c6.256,6.226,16.374,6.203,22.597-0.051C33.526,20.995,33.505,10.878,27.25,4.655z" />
+                        <path style="fill:#fff;" d="M13.288,23.896l-1.768,5.207c2.567,0.829,5.331,0.886,7.926,0.17l-0.665-5.416C17.01,24.487,15.067,24.5,13.288,23.896z M8.12,13.122l-5.645-0.859c-0.741,2.666-0.666,5.514,0.225,8.143l5.491-1.375C7.452,17.138,7.426,15.029,8.12,13.122z M28.763,11.333l-4.965,1.675c0.798,2.106,0.716,4.468-0.247,6.522l5.351,0.672C29.827,17.319,29.78,14.193,28.763,11.333z M11.394,2.883l1.018,5.528c2.027-0.954,4.356-1.05,6.442-0.288l1.583-5.137C17.523,1.94,14.328,1.906,11.394,2.883z" />
+                        <circle style="fill:#fff;" cx="15.979" cy="15.977" r="6.117" />
+                      </g>
+                    </svg>
+                    <label class="container-check">
+                      <p>Done</p>
+                      <input type="checkbox">
+                      <span class="checkmark checkmark-dark"></span>
+                    </label>
+                  </div>
+      
+                  <h3 class="member-task-title">Make fixes in homepage</h3>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        
+    </main>
+
+
+    <script>
+        const openSidebar = document.querySelector(".site-close")
+        const closeSidebar = document.querySelector(".sidebar-close")
+        const openMiniSidebar = document.querySelectorAll(".sidebar-item")[0]
+        const closeMiniSidebar = document.querySelector(".dropdown-close")
+        const dropdown = document.querySelector(".dropdown")
+        const sidebar = document.querySelector(".sidebar-link")
+
+        openSidebar.addEventListener("click", function () {
+        sidebar.classList.toggle("sidebar-link-show")
+        })
+        closeSidebar.addEventListener("click", function () {
+        sidebar.classList.toggle("sidebar-link-show")
+        })
+        openMiniSidebar.addEventListener("click", function () {
+        dropdown.classList.toggle("dropdown-show")
+        })
+        closeMiniSidebar.addEventListener("click", function () {
+        dropdown.classList.toggle("dropdown-show")
+        })
+
+        const dropdownItems = [...document.querySelectorAll(".dropdown-item")]
+
+            dropdownItems.forEach((item) => {
+            item.addEventListener("click", function () {
+                item.classList.toggle("dropdown-item-active")
+            })
+        })
+    </script>    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
